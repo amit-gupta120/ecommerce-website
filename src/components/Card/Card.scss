@@ -1,0 +1,42 @@
+.card {
+}
+
+.linkCard {
+  // display:flex;
+  text-decoration: none !important;
+}
+
+.image {
+    
+  // position: relative;
+
+  .mainImage {
+    height: 300px;
+    width: 200px;
+  }
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0px;
+
+  color: black;
+}
+
+.prices {
+  display: flex;
+  gap: 10px;
+  //   padding: 0px 0px;
+
+  h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+
+    &:first-child {
+      color: gray;
+      text-decoration: line-through;
+    }
+  }
+}
